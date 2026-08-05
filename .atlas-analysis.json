@@ -1,0 +1,113 @@
+{
+  "projectType": "saas",
+  "projectName": "Openly Learning",
+  "projectDescription": "A marketplace connecting families and homeschoolers with credentialed, reviewed educators for live one-on-one and small-group sessions.",
+  "theme": "almond",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "For Families",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "how-it-works",
+              "getting-started"
+            ]
+          },
+          {
+            "group": "Finding Educators",
+            "pages": [
+              "families/browse-search",
+              "families/educator-profiles",
+              "families/credential-ladder"
+            ]
+          },
+          {
+            "group": "Booking & Payment",
+            "pages": [
+              "families/booking-a-session",
+              "families/payments-pricing",
+              "families/managing-sessions"
+            ]
+          },
+          {
+            "group": "Your Dashboard",
+            "pages": [
+              "families/learner-dashboard",
+              "families/learning-tiers",
+              "families/reviews-ratings"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "For Educators",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "educators/overview",
+              "educators/applying",
+              "educators/setting-your-rate"
+            ]
+          },
+          {
+            "group": "Your Profile",
+            "pages": [
+              "educators/credential-ladder",
+              "educators/ratings-reviews",
+              "educators/managing-availability"
+            ]
+          },
+          {
+            "group": "Earnings & Payouts",
+            "pages": [
+              "educators/earnings-fees",
+              "educators/payout-setup",
+              "educators/educator-dashboard"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Help",
+        "groups": [
+          {
+            "group": "Support",
+            "pages": [
+              "faq",
+              "troubleshooting",
+              "contact"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Educator marketplace with search and filtering by subject, price, and credential tier",
+    "Four-tier credential ladder (Foundations → Proficiency → Mastery → Distinction) based on verified teaching hours",
+    "Multi-dimension session ratings: Appropriateness, Professionalism, Teaching Skill, Subject Knowledge",
+    "Transparent 15–20% platform fee deducted from educator payout, not added to families' cost",
+    "Live session booking with real-time availability and secure payment",
+    "Learner engagement tiers (Curious → Committed → Devoted → Scholar) tracking hours studied",
+    "Multiple payment methods: credit/debit card, ACH bank transfer, PayPal, Venmo",
+    "Automatic payouts to educators 1–2 business days after each completed session",
+    "Educator and learner dashboards with earnings, upcoming sessions, and progress tracking",
+    "Early-access waitlist with onboarding in waves"
+  ],
+  "publicApiSurface": [
+    "Browse/search educators by subject, category, price, and credential tier",
+    "View educator profile with credential tier, ratings, and reviews",
+    "Book a session (time slot selection, session details, payment)",
+    "Learner dashboard: upcoming sessions, saved educators, learning tier progress",
+    "Educator dashboard: earnings, hours logged, upcoming sessions, review breakdown",
+    "Payout account setup (bank, PayPal, Venmo)",
+    "Waitlist signup (family or educator role)"
+  ]
+}
